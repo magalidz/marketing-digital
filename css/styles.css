@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Raleway&display=swap');
+
+:root {
+    font-size: 16px;
+    --main-bg-color: #000;
+    --main-contrast-color: #fc1e56;
+    font-family: 'Raleway', sans-serif;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+
+}
+
+body {
+    margin: 0 0;
+    padding: 0 0;
+    height: 1000px;
+}
+
+nav.navbar {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    height: 80px;
+    background-color: var(--main-bg-color);
+    font-size: 1rem;
+    padding: 0 0 !important;
+}
+
+.container-fluid {
+    margin: 3px 12px !important;
+    padding: 0 12px !important;
+}
+
+
+#logo {
+    display: table;
+    height: 74px;
+    border: 1px solid #fff;
+}
+
+.logo {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.logo a {
+    font-family: 'Concert One', cursive;
+    text-decoration: none;
+    color: var(--main-contrast-color);
+}
+
+#nav-links {
+    display: table;
+    padding: 0 0 !important;
+}
+
+#nav-links a {
+    font-family: 'Concert One', cursive;
+    text-decoration: none;
+    padding: 0 8px;
+    float: right;
+    color: var(--main-contrast-color);
+}
+
+.separator {
+    border-right: 1px solid var(--main-contrast-color);
+}
+
+.navbar-nav > li {
+    float: right;
+    display: inline-block;
+}
